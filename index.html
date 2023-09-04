@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5fea0f1ea9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+             <nav>
+                <img src="images/Arpit .png" class="logo">
+                <ul>
+                    <li> <a href="#">Home</a></li>
+                    <li> <a href="#">About</a></li>
+                    <li> <a href="#">Services</a></li>
+                    <li> <a href="#">Portfolio</a></li>
+                    <li> <a href="#">Contact</a></li>
+                    
+                </ul>
+             </nav>
+             <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Arpit</span><br> jaiswal from kanpur,India</h1>
+
+             </div>
+        </div>
+ 
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/aaa.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>A highly motivated and technically adept Web Developer with a strong academic background in computer science and engineering in Vit University and a burning passion for all things web-related. Equipped with hands-on experience in developing dynamic and user-friendly websites, I thrive on turning innovative ideas into reality through code.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"  onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>Problem solving</span><BR>Proficient in programming languages: C++ ,C ,Java</BR>
+                            </li>
+                            <li>
+                                <span>Web Development</span><BR> Web App Development</BR>
+                            </li>
+                            <li>
+                                <span>App development</span><BR>Building android /ios apps</BR>
+                            </li>
+                            <li>
+                                <span>Data Structures and Algorithm</span><Br>Proficient in problem-solving and optimizing code efficiency.</Br>
+                            </li>
+                            <li>
+                                <span>Operating Systems
+                                </span><br>
+                                Proficient in multiple operating systems, including Windows, macOS, and Linux 
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>Web Development</span><BR>Web Development: HTML, CSS, Javascript(beginner) <br>
+                                    Frontend of a website using basic HTML and CSS <br>My portfolio website is a skillful digital showcase of my expertise and accomplishments<p><a href="https://github.com/arpit00000?tab=repositories">github</a></p></BR>
+                            </li>
+                            <li>
+                                <span>Data Science</span> <BR>
+                                    Building a Conceptualized and developed machine learning models to
+                                    predict total ride durations of taxi trips. </BR>
+                            </li>
+                            <li>
+                                <span>Structured and Object
+                                    Oriented Programming</span><BR>5 star in C++ Hackerrank,
+                                        4 star in Java Hackerrank 
+                                        <p><a href="https://www.hackerrank.com/aj268824?hr_r=1">Hackerrank</a></p></BR>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>Btech</span><BR>Persuing btech in CSE from Vellore Institute of Technology,Chennai</BR>
+                            </li>
+                            <li>
+                                <span>UP board, Class XII</span><BR> BNSD Shiksha Niketan Inter College,Kanpur</BR>
+                            </li>
+                            <li>
+                                <span>App development</span><BR>Building android /ios apps</BR>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <!------servise------>
+  <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+             <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Developed the user interface of a cutting-edge website through the skillful utilization of fundamental HTML and CSS technologies. Crafted an intuitive and visually engaging frontend that seamlessly blends user-centric design principles with efficient code implementation. Employed HTML5 to structure the content with semantic precision, ensuring optimal accessibility and search engine visibility. Leveraged the power of CSS3 to orchestrate intricate layouts, fine-tuned styling, and responsive design, thus enabling the website to elegantly adapt across various devices and screen sizes. Employed a meticulous approach to coding, resulting in a streamlined and performance-optimized frontend that elevates the user's browsing experience.</p>
+                <a href="#">learn more</a>
+             </div>
+             <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Operations</h2>
+                <p>Executed a cutting-edge event known as "Webverse," a groundbreaking gathering at the forefront of technological innovation, focused exclusively on the realm of web development. This remarkable occasion brought together a staggering assembly of over 400+ inquisitive students, all driven by their fervor for the digital frontier.and 
+                    Executed a cutting-edge 3D Modeling Symposium, leveraging state-of-the-art technological prowess, that attracted an impressive assembly of 300+ forward-thinking participants. This event seamlessly melded innovation and creativity, providing an immersive platform for attendees to delve into the intricacies of three-dimensional design paradigms. With a fusion of high-performance computing, advanced rendering techniques, and collaborative software ecosystems, the symposium empowered attendees to transcend the boundaries of traditional design and embrace the limitless horizons of digital craftsmanship. 
+                </p>
+                <a href="#">learn more</a>
+             </div>
+             <div>
+                <i class="fa-brands fa-app-store-ios"></i> 
+                <h2>Machine Learning</h2>
+                <p>In my machine learning services, I employ a data-driven approach to address the complex problem of estimating total ride durations for taxi trips. I begin by collecting and preprocessing extensive datasets containing features such as pick-up and drop-off locations, timestamps, weather conditions, and historical trip durations. Next, I engineer relevant features and conduct exploratory data analysis to gain insights into the data distribution and relationships. Leveraging regression techniques such as linear regression, decision trees, or advanced algorithms like XGBoost and Random Forest, I develop predictive models. These models are trained on labeled datasets, optimizing hyperparameters, and utilizing techniques like cross-validation to ensure robust performance. </p>
+                <a href="#">learn more</a>
+             </div>
+              
+        </div>
+    </div>
+  </div>  
+
+
+<!------portfolio------>
+<div class="portfolio">
+    <div class="container">
+        <h1 class="sub-title">
+            My work</h1>  
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>data science</h3>
+                    <p>Data Science Internship at Capabl, Bengaluru
+                    </p>
+                    <p>At Capabl, a trailblazing tech company renowned for its commitment to cutting-edge solutions, I've been entrusted with the task of conceptualizing and developing intricate machine learning models with the purpose of predicting the total durations of taxi trips. This endeavor has propelled me into the world of advanced analytics and predictive algorithms, enabling me to contribute to the evolution of transportation and logistics.</p>
+                    <a href="#"<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Website design</h3>
+                    <p>Developed the user interface of a cutting-edge website through the skillful utilization of fundamental HTML and CSS technologies. Crafted an intuitive and visually engaging frontend that seamlessly blends user-centric design principles with efficient code implementation. Employed HTML5 to structure the content with semantic precision, ensuring optimal accessibility and search engine visibility. Leveraged the power of CSS3 to orchestrate intricate layouts, fine-tuned styling, and responsive design, thus enabling the website to elegantly adapt across various devices and screen sizes. Employed a meticulous approach to coding, resulting in a streamlined and performance-optimized frontend that elevates the user's browsing experience.</p>
+                    <a href="https://github.com/arpit00000/fitness.html/blob/main/FITNESS.HTML"<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3> portfolio</h3>
+                    <p>I have successfully conceptualized and built portfolio websites that effectively showcase individuals' or companies' expertise, accomplishments, and unique brand identities. This involves designing visually appealing layouts, implementing user-friendly navigation, and optimizing for responsiveness across various devices. I have also integrated key features like portfolio showcases, about me/us sections, contact forms, and interactive elements to create engaging and professional online platforms. My expertise in web development ensures that these portfolio websites not only look impressive but also function seamlessly, leaving a lasting impression on visitors and helping clients achieve their professional goals.</p>
+                    <a href="#"<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>            
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!---------contact-------->
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                 <h1 class="sub-title">Contact me</h1>
+                 <p> <i class="fa-solid fa-envelope"></i>jaiswalarpit438@gmail.com</p>
+                 <p><i class="fa-solid fa-phone"></i>6387145766</p>
+                 <div class="social-icons">
+                    <a href="https://www.facebook.com/arpit.jaiswal.129357/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/arpit-jaiswal-776366229"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/arpit.jaiswal.10/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/arpit00000"><i class="fa-brands fa-github"></i></a>
+                 </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text"  name="Name" placeholder="Your name">
+                    <input type="email" name="email" placeholder="Your email">
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+
+
+                
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ arpit<i class="fa-solid fa-jet-fighter-up"></i></p>
+    </div>
+</div>
+
+    <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>    
+</body>
+</html>
